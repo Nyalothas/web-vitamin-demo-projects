@@ -14,7 +14,7 @@ I will show you how to use a google sheet file as your BE DB, and connect it to 
   1. Open your google drive and create a new excel sheet (right click > Google Sheets > Blank spreadsheet) and a new document (right click > Google Docs > Blank document).:
   ![](./src/images/NewGoogleSheetAndDoc.png)  
   **Note:** you can also use a `.txt` file, if you don't want to use a Google Doc. To generate that, you can upload one from your device.
-  2. Open the newly created sheet and add some data:
+  2. Open the newly created sheet and add some data:  
   ![](./src/images/SheetData.png)
   3. Rename the default sheet to something meaningfull:  
   ![](./src/images/SheetRename.png)
@@ -73,7 +73,7 @@ function createGoogleDriveTextFile() {
 - Replace the `sheetName` with the name that you gave on step 3.
 - Replace the `fileId` from inside the `writeToExistingFile` with your own doc file id created on step 1. To find out the file id, open the created document and look in the url bar of the browser: 
 ![](./src/images/DocFileId.png)
-Or if using a txt file(you need to open it in a new window to get the proper Id)
+Or if using a txt file(you need to open it in a new window to get the proper Id)  
 ![](./src/images/DocFileIdTxt.png)
 - Since we are here also make sure the share the file(the document where we will write the data to) with anyone with a link(this will come into play later)❗
 
@@ -98,7 +98,7 @@ Click on **New Project**, give your project a name then click on **Create**. Aft
  ![](./src/images/ApiAndServices.png)  
  Then from the sidebar, click on **Credentials**, followed by **+ Create Credentials**, then select **API key**
  ![](./src/images/CreateCredentials.png)  
- After a few seconds your API key will be generated.
+ After a few seconds your API key will be generated.  
  ![](./src/images/APIKeyCreated.png)
 
  10. Clone the content of this repository. Open the content in a code editor(for this I recommend [VS Code](https://code.visualstudio.com/)). Navigate to `src/index.js` and open the `index.js` file.
