@@ -5,7 +5,7 @@
 **Info:**
 Ever wanted to have an easy way to modify your FE data from multiple devices, in real time, without needing a BE, and most importantly, make it easier to update for people who are not tech-savy? If the answer is yes, then this is an option.
 
-I will show you how to use a google sheet file as your BE, and connect it to your FE.
+I will show you how to use a google sheet file as your BE DB, and connect it to your FE.
 
 ## Prerequisites
  - Google account
