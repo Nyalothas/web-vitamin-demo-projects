@@ -1,6 +1,6 @@
 (() => {
-	const key = "AIzaSyChFB1rMeLFIscMPYoHYcQDUENie6jB0Hg";
-	const fileId = "1U2VkKfG0w8V9iMLCN-u_99Kc_xBbFFS9";
+	const key = "yourAPIKey";
+	const fileId = "yourFileID";
 	fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media&key=${key}`)
 		.then((response) => response.json())
 		.then((data) => console.log(data));
